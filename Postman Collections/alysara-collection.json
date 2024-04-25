@@ -222,7 +222,8 @@
 									"pm.collectionVariables.set(\"access_token\", pm.response.json().access_token);",
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"packages": {}
 							}
 						}
 					],
@@ -273,7 +274,7 @@
 								}
 							]
 						},
-						"url": "192.168.0.123:9090/realms/rakez/protocol/openid-connect/token"
+						"url": "192.168.0.123:9090/realms/rakez/protocol/openid-connect/token/login"
 					},
 					"response": []
 				}
