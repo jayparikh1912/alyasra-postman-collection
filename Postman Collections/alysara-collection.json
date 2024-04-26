@@ -456,34 +456,6 @@
 			"id": "4b205562-eaf8-43d6-ac88-9648d502a365"
 		},
 		{
-			"name": "s",
-			"item": [
-				{
-					"name": "demo json",
-					"id": "fee9c34c-6c65-4ba2-ba94-7c2b9ecbdbd2",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": "[\n    {\n        \"id\": \"3\",\n        \"name\": \"c\",\n        \"parentDivisionRef\": {\n            \"id\": \"1\"\n        },\n        \"isDeleted\":false\n    },\n    {\n        \"id\": \"1\",\n        \"name\": \"a\",\n        \"isDeleted\":false\n    },\n    {\n        \"id\": \"2\",\n        \"name\": \"a\",\n        \"parentDivisionRef\": {\n            \"id\": \"5\"\n        },\n        \"isDeleted\":false\n    },\n    {\n        \"id\": \"5\",\n        \"name\": \"e\",\n        \"parentDivisionRef\": {\n            \"id\": \"1\"\n        },\n        \"isDeleted\":false\n    },\n    {\n        \"id\": \"6\",\n        \"name\": \"e\",\n        \"parentDivisionRef\": {\n            \"id\": \"3\"\n        },\n        \"isDeleted\":false\n    },\n    {\n        \"id\": \"4\",\n        \"name\": \"e\",\n        \"parentDivisionRef\": {\n            \"id\": \"5\"\n        },\n        \"isDeleted\":false\n    }\n]",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": "192.168.0.123:20080"
-					},
-					"response": []
-				}
-			],
-			"id": "c8c3298d-e092-4c8d-a08d-607d1086f32a"
-		},
-		{
 			"name": "staff",
 			"item": [
 				{
@@ -628,18 +600,6 @@
 						}
 					],
 					"id": "8c5cca40-a5e0-4eb3-b3d0-46c1596fce19"
-				},
-				{
-					"name": "New Request",
-					"id": "23ad2468-0028-4e5a-9c57-53e1bfdbca60",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
 				}
 			],
 			"id": "65b1d957-77fa-4c88-ae10-2fd3be365318"
