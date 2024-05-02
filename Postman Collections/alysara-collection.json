@@ -381,6 +381,58 @@
 			"id": "2302f500-4906-4ea1-bee1-a83c1e07972a"
 		},
 		{
+			"name": "TS",
+			"item": [
+				{
+					"name": "localhost:20096/catalog/api/v1/items/fe70cd91-c267-4046-8e94-2759262bb63e/associations/catalogs?page=1&pageSize=10&sortBy=id&sortOrder=0",
+					"id": "84bfae2d-170b-48f5-aff2-327c2df223c6",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:20096/catalog/api/v1/items/fe70cd91-c267-4046-8e94-2759262bb63e/associations/catalogs?page=1&pageSize=10&sortBy=id&sortOrder=0",
+							"host": [
+								"localhost"
+							],
+							"port": "20096",
+							"path": [
+								"catalog",
+								"api",
+								"v1",
+								"items",
+								"fe70cd91-c267-4046-8e94-2759262bb63e",
+								"associations",
+								"catalogs"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "pageSize",
+									"value": "10"
+								},
+								{
+									"key": "sortBy",
+									"value": "id"
+								},
+								{
+									"key": "sortOrder",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "26253fd0-9f33-4b80-88b3-5d51683e36ea"
+		},
+		{
 			"name": "alyasra-token",
 			"event": [
 				{
