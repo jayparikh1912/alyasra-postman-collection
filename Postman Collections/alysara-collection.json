@@ -165,6 +165,12 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{token}}"
+									}
+								},
 								"method": "GET",
 								"header": [],
 								"url": "{{catalog-mgmt}}/catalogs/customers/b82538be-47d8-418a-bce2-f7d7011edeaa"
