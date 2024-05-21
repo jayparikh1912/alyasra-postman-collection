@@ -187,9 +187,18 @@
 										"token": "{{token}}"
 									}
 								},
-								"method": "GET",
+								"method": "PUT",
 								"header": [],
-								"url": "{{catalog-mgmt}}/catalogs/customers/b5fb89c4-5cf1-4491-880f-a305d4b39a7f"
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"id\": \"b82538be-47d8-418a-bce2-f7d7011edeaa\",\n    \"name\": \"tes-catalog\",\n    \"status\": \"INACTIVE\",\n    \"type\": \"Customer\",\n    \"description\": \"****\",\n    \"currency\": \"KD\",\n    \"divisionId\": \"c9d1c5d3-b2a6-4cd1-8b3a-ec94d1e34fcf\",\n    \"secondaryCatalogId\": \"b5fb89c4-5cf1-4491-880f-a305d4b39a7f\",\n    \"secondaryCatalogName\": \"Test-catalogS\",\n    \"customers\": [\n        {\n            \"id\": \"219f58e8-371c-41a6-8045-5efee280b958\",\n            \"customerId\": \"1ecbdd5e-7609-41db-b310-0192b2ab4e73\",\n            \"nameEn\": \"Kabayen\",\n            \"nameAr\": \"Kabayen\",\n            \"number\": null,\n            \"name\": null,\n            \"tenantId\": 1,\n            \"isDeleted\": false\n        },\n        {\n            \"id\": \"d1b0096f-fc3a-4488-b3dc-ac88bcc949a4\",\n            \"customerId\": \"60064dc5-92bd-44a1-9562-d5e7fb562397\",\n            \"nameEn\": \"Symphony Style Hotel - Salmiya\",\n            \"nameAr\": \"Symphony Style Hotel - Salmiya\",\n            \"number\": null,\n            \"name\": null,\n            \"tenantId\": 1,\n            \"isDeleted\": false\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": "{{catalog-mgmt}}/catalogs/updateBasicDetails/b82538be-47d8-418a-bce2-f7d7011edeaa"
 							},
 							"response": []
 						}
