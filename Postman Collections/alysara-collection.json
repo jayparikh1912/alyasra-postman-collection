@@ -157,6 +157,19 @@
 								"header": []
 							},
 							"response": []
+						},
+						{
+							"name": "getCalogCustomers",
+							"id": "9fe5a4dc-4632-4efd-b5d2-63f0dd1fc4ab",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": "{{catalog-mgmt}}/catalogs/customers/b82538be-47d8-418a-bce2-f7d7011edeaa"
+							},
+							"response": []
 						}
 					],
 					"id": "da800105-9682-47dc-87ff-1c635bf90f92",
