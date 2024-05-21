@@ -145,6 +145,18 @@
 								"url": "http://localhost:20096/api/v1/catalog"
 							},
 							"response": []
+						},
+						{
+							"name": "updateBasicdetails",
+							"id": "4fe80f87-ff3e-415e-90bf-f3155fe1fbc3",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
 						}
 					],
 					"id": "da800105-9682-47dc-87ff-1c635bf90f92",
