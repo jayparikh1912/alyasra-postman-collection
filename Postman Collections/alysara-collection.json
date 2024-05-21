@@ -153,8 +153,38 @@
 								"disableBodyPruning": true
 							},
 							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": {
+										"token": "{{token}}"
+									}
+								},
 								"method": "GET",
-								"header": []
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"id\": \"9d3ee29e-183e-4694-a1f9-896dcd513ae3\",\n  \"name\": \"tes-catalog\",\n  \"status\": \"INACTIVE\",\n  \"type\": \"Work Unit\",\n  \"description\": \"****\",\n  \"currency\": \"KD\",\n  \"secondaryCatalogId\": \"b5fb89c4-5cf1-4491-880f-a305d4b39a7f\",\n  \"secondaryCatalogName\": \"Test-catalogS\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{catalog-mgmt}}/catalogs?name=test catalog",
+									"host": [
+										"{{catalog-mgmt}}"
+									],
+									"path": [
+										"catalogs"
+									],
+									"query": [
+										{
+											"key": "name",
+											"value": "test catalog"
+										}
+									]
+								}
 							},
 							"response": []
 						},
