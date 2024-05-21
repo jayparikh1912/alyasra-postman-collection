@@ -147,7 +147,7 @@
 							"response": []
 						},
 						{
-							"name": "updateBasicdetails",
+							"name": "search in catalog",
 							"id": "4fe80f87-ff3e-415e-90bf-f3155fe1fbc3",
 							"protocolProfileBehavior": {
 								"disableBodyPruning": true
@@ -171,7 +171,7 @@
 									}
 								},
 								"url": {
-									"raw": "{{catalog-mgmt}}/catalogs?type=Work Unit",
+									"raw": "{{catalog-mgmt}}/catalogs?name=Test-catalog",
 									"host": [
 										"{{catalog-mgmt}}"
 									],
@@ -180,8 +180,8 @@
 									],
 									"query": [
 										{
-											"key": "type",
-											"value": "Work Unit"
+											"key": "name",
+											"value": "Test-catalog"
 										}
 									]
 								}
@@ -203,7 +203,7 @@
 								},
 								"method": "GET",
 								"header": [],
-								"url": "{{catalog-mgmt}}/catalogs/customers/b82538be-47d8-418a-bce2-f7d7011edeaa"
+								"url": "{{catalog-mgmt}}/catalogs/customers/b5fb89c4-5cf1-4491-880f-a305d4b39a7f"
 							},
 							"response": []
 						}
