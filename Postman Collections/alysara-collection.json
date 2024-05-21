@@ -170,21 +170,7 @@
 										}
 									}
 								},
-								"url": {
-									"raw": "{{catalog-mgmt}}/catalogs?name=Test-catalog",
-									"host": [
-										"{{catalog-mgmt}}"
-									],
-									"path": [
-										"catalogs"
-									],
-									"query": [
-										{
-											"key": "name",
-											"value": "Test-catalog"
-										}
-									]
-								}
+								"url": "{{catalog-mgmt}}/catalogs"
 							},
 							"response": []
 						},
