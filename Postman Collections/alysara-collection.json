@@ -432,6 +432,18 @@
 						"url": "http://localhost:20096/api/v1/custompricing/QC240416_c2645ee0"
 					},
 					"response": []
+				},
+				{
+					"name": "add keys",
+					"id": "acd37432-06df-408d-a7b7-a6e8f60d1794",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
 				}
 			],
 			"id": "2302f500-4906-4ea1-bee1-a83c1e07972a"
