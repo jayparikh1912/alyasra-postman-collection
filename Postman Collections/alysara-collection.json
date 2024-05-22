@@ -434,7 +434,7 @@
 					"response": []
 				},
 				{
-					"name": "add keys",
+					"name": "add keys in customer",
 					"id": "acd37432-06df-408d-a7b7-a6e8f60d1794",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
